@@ -1,0 +1,327 @@
+<html>
+
+<!-- Title for the page -->
+<title> U.S. Individual Income Tax Return </title>
+
+<!-- Page Heading -->
+<head>
+<link rel= "stylesheet" href="main.css" charset="utf-8">
+
+<div class="titlenew">
+ Department of the Treasury- Internal Revenue Service  &nbsp&nbsp&nbsp&nbsp (99)
+<br/>
+</div>
+
+<div class="rotate">
+<b> Form  </b> 
+</div>
+
+<div class="titleborder1">
+	<b> 1040 </b>
+</div>
+<div class="titleborder2">
+	<b> U.S. Individual Income Tax Return </b>
+</div>
+
+<div class="titleborder3">
+		<b> 2018 </b>
+</div>
+
+<div class="titleborder4">
+	 OMB No.1545-0074 
+</div>
+<div class="titleborder5">
+	IRS Use only - Do not write or staple in this space
+</div>
+<br/>
+
+
+</head>
+
+<!-- Body starts here -->
+<body>
+<!-- form starts here -->
+<form method="PUT">
+<!-- Radio buttons for filling status -->
+<div class="colors">
+	<label for="fillstatus">Filling status: </label>  &nbsp&nbsp
+	<input type="radio" id="singl" name="fillstatus" value="Single" checked> Single </input> &nbsp&nbsp
+	<input type="radio" id=married_joint name="fillstatus" value="Married filing jointly"> Married filing jointly </input> &nbsp&nbsp
+	<input type="radio" id="marriedseparate" name="fillstatus" value="Married filing separately"> Married filing separately </input> &nbsp&nbsp
+	<input type="radio" id="headhousehold" name="fillstatus" value="Head of household"> Head of household </input> &nbsp&nbsp
+	<input type="radio" id="Qualifywidow" name="fillstatus" value="Qualifying widow(er)"> Qualifying widow(er) </input>
+</div>
+
+<!-- Personal details -->
+<div class="borders">
+	<label for="fname">Your first name and initial: </label> 
+	<input type="text" name="fname" pattern="([A-Z|a-z|]+[\s|\.]*)*" size="40" required> &nbsp&nbsp
+</div>
+		
+<div class="borders">		 
+	<label for="lname"> &nbsp&nbsp&nbsp last name: </label> 
+	<input type="text" name="lname" pattern="([A-Z|a-z|]+[\s|\.]*)*" size="40" required> &nbsp&nbsp
+</div>		
+		
+<div class="newborder">		
+	<b> &nbsp&nbsp&nbsp Your social security number: <sup> * </sup>: </b> <input type="text" pattern="[0-9]{9}" minlength="9" maxlength="9" required >
+</div>
+
+<div class="colors">
+	<label for="standarddeduct">Your standard deduction: </label>  &nbsp&nbsp
+	<input type="checkbox" name="standarddeduct" value="Someone can claim you as dependent"> Someone can claim you as dependent </input> &nbsp&nbsp
+	<input type="checkbox" name="standarddeduct" value="You were born before January 2, 1954"> You were born before January 2, 1954 </input> &nbsp&nbsp
+	<input type="checkbox" name="standarddeduct" value="You are blind "> You are blind </input> 
+</div>
+
+<!-- Spouse Details -->
+<div class="borders">
+	<label for="jointname"> If joint return, spouse's first name and initial: </label>
+	<input type="text" name="jointname" pattern="([A-Z|a-z|]+[\s|\.]*)*" size="40" required> &nbsp&nbsp
+</div>
+
+<div class="borders">
+ 	<label for="lname"> &nbsp&nbsp&nbsp last name: </label> 
+ 	<input type="text" name="lname" pattern="([A-Z|a-z|]+[\s|\.]*)*" size="40" required> 	&nbsp&nbsp 
+</div>  
+<div class="newborder2">
+ <b> &nbsp&nbsp&nbsp Spouse's social security number: <sup> * </sup>: </b> <input type="text" pattern="[0-9]{9}" minlength="9" maxlength="9" required>
+</div>
+
+
+<div class="colors1">
+	<label for="spousestddeduct"> Spouse standard deduction: </label>  &nbsp&nbsp
+		<input type="checkbox" name="spousestddeduct" value="Someone can claim your spouse as dependent"> Someone can claim your spouse as dependent </input> &nbsp&nbsp
+		<input type="checkbox" name="spousestddeduct" value="Spouse was born before January 2, 1954"> Spouse was born before January 2, 1954 </input> &nbsp&nbsp
+		<input type="checkbox" name="spousestddeduct" value="Full-year health care coverage or exempt (see inst.)"> Full-year health care coverage or exempt (see inst.) </input> &nbsp&nbsp
+		<br/>
+		<input type="checkbox" name="spousestddeduct" value="Spouse is blind"> Spouse is blind </input> &nbsp&nbsp
+		<input type="checkbox" name="spousestddeduct" value="Spouse itemizes on a separate return or you were a dual-status alien"> Spouse itemizes on a separate return or you were a dual-status alien </input> &nbsp&nbsp
+</div>
+
+<!-- Address -->
+
+	<div class="borders1">
+	<label for="homeaddr"> &nbsp&nbsp&nbsp Home address(number and street). If you have a P.O. Box, see instructions </label>
+	<br/>
+	&nbsp&nbsp&nbsp <input type="text" size="80" name="homeaddr"> &nbsp&nbsp
+</div>
+	<div class="borders1">
+	<label for="aptno"> &nbsp&nbsp&nbsp Apt.no. </label>
+	<br/>
+	&nbsp&nbsp&nbsp <input type="text" size="20" name="aptno"> &nbsp&nbsp
+</div> 
+	<div class="newborder1">
+	<label for="presidentelec"> <b> &nbsp&nbsp&nbsp Presidential Election Campaign </b> (see inst.) </label>
+	<br/>
+	&nbsp&nbsp&nbsp <input type="checkbox" name="presidentelec" value="You" checked> <b> You </b> 
+	&nbsp 
+	<input type="checkbox" name="presidentelec" value="Spouse"> <b> Spouse </b>
+</div>
+
+
+<div class="borders1">
+	<label for="addr"> City, town or post office, state, and ZIP code. If you have a foreign address, attach Schedule 6. </label>
+	<br/>
+	<input type="text" size="120" name="addr">
+</div>
+<div class="newborder3"> 
+	<label for="ifdepend"> If more than four dependents. </label>
+	<br/>
+		 
+	see inst <img src="/Users/aishwaryaprabhu/Desktop/Web_design/checkmarking.png" width="10px" height="10px"> </img> and <img src="/Users/aishwaryaprabhu/Desktop/Web_design/arrowhead.png" width="10px" height="10px"> </img>  
+	here     
+	<input type="checkbox" name="ifdepend">
+</div>
+
+
+<!-- Dependents table -->
+<div>
+	<table border="2" width="100%" border-collapse="collapse">
+		<tr bgcolor="lightblue">
+			<th> Dependents(see instructions): <br/> (1) First name &nbsp Last name </th>
+			<th> (2) Social Security number </th>
+			<th> (3) Relationship to you </th>
+			<th colspan="2"> (4) <img src="/Users/aishwaryaprabhu/Desktop/Web_design/checkmarking.png" width="10px" height="10px"> </img> if qualifies for (see inst):
+				<br/>
+			Child tax credit &nbsp Credit for other dependents </th>
+		</tr>
+		<tr>
+			<td align="center"> <input type="text" size="60" name="dependents"> </td>
+			<td align="center"> <input type="text" size="20" name="ssn"> </td>
+			<td align="center"> <input type="text" size="20" name="relation"> </td>
+			<td align="center"> <input type="checkbox" name="childcredit"> </td>
+			<td align="center"> <input type="checkbox" name="credits"> </td>
+		</tr>
+		<tr>
+			<td align="center"> <input type="text" size="60" name="dependents"> </td>
+			<td align="center"> <input type="text" size="20" name="ssn"> </td>
+			<td align="center"> <input type="text" size="20" name="relation"> </td>
+			<td align="center"> <input type="checkbox" name="childcredit"> </td>
+			<td align="center"> <input type="checkbox" name="credits"> </td>
+		</tr>
+		<tr>
+			<td align="center"> <input type="text" size="60" name="dependents"> </td>
+			<td align="center"> <input type="text" size="20" name="ssn"> </td>
+			<td align="center"> <input type="text" size="20" name="relation"> </td>
+			<td align="center"> <input type="checkbox" name="childcredit"> </td>
+			<td align="center"> <input type="checkbox" name="credits"> </td>
+		</tr>	
+	</table>
+</div>
+
+<!-- Signature of self and spouse-->
+<div>
+	<div class="signatureleft">
+		<font size="5.0"> <b> Sign <br/> Here </b></font>
+		<br/>
+		Joint Return?
+		<br/>
+		See instructions. <img src="/Users/aishwaryaprabhu/Desktop/Web_design/arrowhead.png" width="10px" height="15px"> </img>
+		<br/>
+		Keep a copy for your records.
+	</div>
+
+	<div class ="signaturetop">
+		Under penalties of perjury, I declare that I have examined this return and accompanying schedules and statements, and to the best of my knowledge and belief, the are true,correct, and complete. Declaration of prepare (other than taxpayer) is based on all information of which preparer has any knowledge. 
+	</div>
+
+	<div class="signatureright">
+		<span>
+		<label for="sign">Your signature <sup> * </sup> </label>
+		<br/>
+		<input type="text" size="30" name="sign" required>
+		<br/>
+		<label for="sign">Spouse's signature.<sup> * </sup> </label>
+		<br/>
+		<input type="text" size="30" name="sign" required>
+		</span>
+	</div>
+
+	<div class="signdate">
+		<span>
+		<label for="dated"> &nbsp&nbsp&nbsp&nbsp Date  <sup> * </sup> </label> 
+		<br/> 
+		&nbsp&nbsp&nbsp&nbsp<input type="date" size="10" name="dated" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+		<br/>
+		<label for="dated">  &nbsp&nbsp&nbsp&nbsp Date <sup> * </sup> </label> 
+		<br/> 
+		&nbsp&nbsp&nbsp&nbsp&nbsp<input type="date" size="10" name="dated" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+	</span>
+	</div> 
+	
+	<div class="occupation">
+		<span>
+		<label for="occupation"> &nbsp&nbsp&nbsp&nbsp Your Occupation  <sup> * </sup> </label>
+		<br/>
+		&nbsp&nbsp&nbsp&nbsp <input type="text" size="30" name="occupation" required>
+		<br/>
+		<label for="spouseoccupation"> &nbsp&nbsp&nbsp&nbsp Spouse's Occupation <sup> * </sup> </label>
+		<br/>
+		&nbsp&nbsp&nbsp&nbsp <input type="text" size="30" name="spouseoccupation" required>
+	</span>
+	</div>
+		
+	 <div class="irspin">
+	 	<span>
+		<label for="idpin"> &nbsp&nbsp&nbsp&nbsp If the IRS sent you an Identity Protection PIN, enter it here (see inst.)  <sup> * </sup> </label>
+		<br/>
+		&nbsp&nbsp&nbsp&nbsp <input type="text" size="20" name="idpin" required>
+		<br/>
+		<label for="spidpin"> &nbsp&nbsp&nbsp&nbsp If the IRS sent you an Identity Protection PIN, enter it here (see inst.) <sup> * </sup> </label>
+		<br/>
+		&nbsp&nbsp&nbsp&nbsp <input type="text" size="20" name="spidpin" required>
+	</div> 
+<hr class="horizontalline">
+
+<!-- Paid Preparer details -->
+	<div class="paidleft">
+		<span> <b>
+			Paid
+			<br/>
+			Preparer 
+			<br/>
+			Use Only </b>
+		</span>
+	</div>
+
+	<div class="prepname">
+		<span>
+		 <label for="prepname">Preparer's name </label>
+		 <br/>
+		 <input type="text" size="40" name="prepname">	
+		</span>
+	</div>
+
+	<div class="prepsign">
+		<span>
+			<label for="prepsign"> Preparer's signature </label> 
+			<br/>
+			<input type="text" size="40" name="prepsign"> 
+		</span>
+
+	</div>
+
+	<div class="preptin">
+		<span>
+			<label for="ptin"> PTIN </label>
+			<br/>
+			<input type="text" size="15" name="ptin">
+		</span>
+	</div>
+
+	<div class="firmein">
+		<span>
+			<label for="firmein"> Firm's EIN </label>
+			<br/>
+			<input type="text" size="15" name="firmein"> 
+		</span>
+	</div>
+
+	<div class="checkif">
+		<span>
+			<label for="checkif"> Check if: </label>
+			<br/>
+			<input type="radio" id="designee" name="checkif" required> 3rd Party Designee 
+			<br/>
+			<input type="radio" id="employed" name="checkif"> Self-employed
+		</span>
+	</div>
+
+	<hr class="divide">
+
+	<div class="firmname">
+		<span>
+			Firm's name <img src="/Users/aishwaryaprabhu/Desktop/Web_design/arrowhead.png" width="10px" height="10px"> </img> <input type="text" size="60"> 
+			&nbsp&nbsp&nbsp&nbsp&nbsp
+			Phone no. <input type="tel" id="phone" size="15" pattern="[0-9]{10}"  minlength="10" maxlength="10" required>
+		</span>
+	</div>
+
+	<hr class="divide">
+
+	<div class="firmaddr">
+		<span>
+			Firm's address <img src="/Users/aishwaryaprabhu/Desktop/Web_design/arrowhead.png" width="10px" height="10px"> </img> <input type="text" size="75">
+		</span>
+	</div>
+
+	<hr class="horizontalline">
+
+<!-- Page end -->
+<!-- end line -->
+<div class="colors">
+	<font size="1.8"><b>For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions.</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Cat.No. 11320B &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Form </font>
+	<font size="2.0"> <b>1040 </b></font>
+	<font size="1.8"> (2018) </font>
+</div> 
+<!-- Form ends here -->
+
+<div>
+	<button type="Submit" name="submit">Submit </button>
+	</div>
+</form>
+<!-- body ends here --> 
+</body>
+<!-- End of html -->
+</html>
